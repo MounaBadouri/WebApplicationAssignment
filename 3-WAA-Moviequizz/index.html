@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset='UTF-8' />
+    <title>Assignment 3: Movie Quizz </title>
+    <link rel='stylesheet' href='style.css' />
+    <link rel='stylesheet' href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+  </head>
+  <body>
+
+  <h1>Movie Quizz Time !!</h1>
+  <h1><strong>This is the movie we're going to test your knowledge on !</strong></h1>
+  <p id='movieinfo'>
+    The Title is : Midsommar
+    The release date is : 2019-07-03
+
+    The plot is : Several friends travel to Sweden to study as anthropologists a summer festival that is held every ninety years in the remote hometown of one of them. What begins as a dream vacation in a place where the sun never sets, gradually turns into a dark nightmare as the mysterious inhabitants invite them to participate in their disturbing festive activities.
+    This is the Poster :
+  </p>
+
+  <div class="main">
+
+
+    <div class="last">
+
+      <label>
+        <a id="top"></a>
+        <ul><strong><big>Question:<small> insert either one of the actors' name or the director's name ? (their full name)</strong></big></small> <br>
+      </label>
+      <input class="answer" id="answer3" type="text" </input><button onclick="search_act_dir()">search</button>
+      <p id="verdict3"></p>
+    </div>
+    <div id="next_q">
+
+      <p id="info_photo"></p>
+    </div>
+    <div id="mov">
+      <p id="verdict5"></p>
+
+
+      <p id="movieinfo2"></p>
+    </div>
+
+          <p id="id"></p>
+
+
+
+</div>
+<a id="topbttn" href="#top" ><i class="fas fa-angle-up"></i></a>
+</body>
+<script src="./script.js" type="text/javascript"></script>
+</html>
